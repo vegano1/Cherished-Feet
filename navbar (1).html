@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="cf.css">
+	<style type="text/css">
+		.navbar-nav  li{
+/* 	 margin-left:50%;*/
+ 	 margin: 0 auto;
+}
+	</style>
+</head>
+<body>
+
+
+
+
+
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href=""> <img src="C:\Users\Christian\Downloads\32px-Happy_feet.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Info <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Mission</a></li>
+            <li><a href="#">Staff</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Distributions</a></li>
+        <li><a href="#">Testimony</a></li>
+        <li><a href="#">Contact Us</a></li>
+        
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="slider" id="main-slider"><!-- outermost container element -->
+	<div class="slider-wrapper">  <!-- innermost wrapper element -->
+		<img src="http://lorempixel.com/1024/400/animals"  class="slide" />
+		<img src="http://lorempixel.com/1024/400/business"  class="slide" />
+		<img src="http://lorempixel.com/1024/400/city"  class="slide" />
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+</div>	
+
+<br>
+
+
+<div style="text-align:center">
+  <span  onclick="currentSlide(1)"></span> 
+  <span  onclick="currentSlide(2)"></span> 
+  <span  onclick="currentSlide(3)"></span> 
+</div>
+
+
+<script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="cf.js"></script> 
+
+
+</body>
+</html>
